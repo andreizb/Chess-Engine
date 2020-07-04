@@ -1,0 +1,50 @@
+[Rares | 26.02.2020-10:06] Created 'Team_Log'
+
+[Andrei | 08.03.2020-16:00] Implemented xboard commands and basic
+	representation of the chess board.
+
+[Rares | 11.03.2020-13:00] Commented and greatly structured the code in use.
+	Added namespaces and header files. Compilation files also changed (see
+	Makefile)
+
+[Rares | 11.03.2020-14:15] Fixed 'choose_function'. Now properly reads input
+	and calls functions.
+
+[Everyone | 15.03.2020-13:30] Refactored a big bulk of the project to use a
+	more C++-ish approach, instead of C-ish 
+
+[Rares | 12.03.2020-03:00] Implemented classes for every piece, each able to
+	generate their possible moves (depth 1)
+
+[Rares | 12.03.2020-15:30] Implemented side change, resign, opponent castle
+	recognition and execution of every move by every piece (except own castling
+	and promotion)
+
+[Rares | 12.03.2020-15:30] Implemented side change, resign, opponent castle
+	recognition and execution of every move by every piece (except own castling
+	and promotion)
+
+[Everyone | 17.04.2020-16:10] Converted whole project to java and tweaked small
+	snippets of code
+
+[Catalin | 17.04.2020-18:45] Implemented cloning methods for cloneable classes
+
+[Andrei | 18.04.2020-01:46] Implemented easier and better move generation.
+
+[Andrei | 18.04.2020-14:54] Implemented better move validation and application.
+
+[Catalin | 18.04.2020-17:45] Implemented basic heuristics to use for future algorithms
+
+[Catalin | 18.04.2020-18:30] Implemented minimax(negamax) with alpha-beta pruning
+
+[Rares | 21.04.2020-15:45] Fixed enPassant rule not working properly and added logging system.
+
+[Rares | 21.04.2020-17:15] Further fixed the enPassant rule and promotion logic.
+
+[Rares | 21.04.2020-23:40] Tweaked alpha-beta algorithm, fixed very small bugs
+	found while playing versus FairyMax and updated README.md for the last push.
+
+[Andrei | 19.05.2020-15:00] Added Piece-Square Tables for every piece and every color.
+
+[Rares & Catalin | 19.05.2020-22:20] Implemented support for piece-square table usage.
+	Added more heuristics (pawn structure and status).
